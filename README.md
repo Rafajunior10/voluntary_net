@@ -29,7 +29,7 @@ Abra o **terminal (Prompt de Comando, PowerShell, Git Bash ou terminal do VS Cod
 ### 1. Clone o projeto
 
 ```bash
-git clone https://github.com/Rafajunior10/reset-password.git
+git clone https://github.com/Rafajunior10/voluntary_net.git
 cd voluntaryNet
 ```
 
@@ -45,6 +45,8 @@ code . (NÃO ESQUEÇA DO ESPAÇO)
 
 ```bash
 npm install
+install react-native-uuid
+npm install @react-native-picker/picker
 ```
 
 ---
