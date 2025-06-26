@@ -29,7 +29,7 @@ Abra o **terminal (Prompt de Comando, PowerShell, Git Bash ou terminal do VS Cod
 ### 1. Clone o projeto
 
 ```bash
-git clone https://github.com/seu-usuario/voluntaryNet.git
+git clone https://github.com/Rafajunior10/reset-password.git
 cd voluntaryNet
 ```
 
@@ -37,7 +37,7 @@ cd voluntaryNet
 ### 2. Abra o projeto no VS Code
 
 ```bash
-code .
+code . (NÃO ESQUEÇA DO ESPAÇO)
 ```
 
 ---
@@ -51,5 +51,5 @@ npm install
 ### 4. Rode o projeto
 
 ```bash
-npx expo start
+npx expo start ou npm start
 ```
