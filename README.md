@@ -45,7 +45,7 @@ code . (NÃO ESQUEÇA DO ESPAÇO)
 
 ```bash
 npm install
-install react-native-uuid
+npm install react-native-uuid
 npm install @react-native-picker/picker
 ```
 
