@@ -1,27 +1,55 @@
 # 📱 VoluntaryNet
 
-Bem-vindo ao **VoluntaryNet**, um aplicativo feito com [Expo](https://expo.dev) com o objetivo de facilitar ações de voluntariado para ONGs, pequenas empresas e projetos sociais.
+O **VoluntaryNet** é um aplicativo para ajudar ONGs, microempresas e projetos sociais a organizarem atividades de voluntariado. Qualquer pessoa pode se cadastrar e se voluntariar de forma simples e rápida.
 
 ---
 
-## 🚀 Como rodar o aplicativo no seu celular (sem saber programar)
+## 🚀 Como rodar o app no seu celular (passo a passo completo, até pra quem nunca programou)
 
-Você só precisa de 3 coisas:
-
-### 1. 📲 Instalar o app **Expo Go** no seu celular
-
-- Android: [Play Store](https://play.google.com/store/apps/details?id=host.exp.exponent)
-- iOS: [App Store](https://apps.apple.com/app/expo-go/id982107779)
-
-⚠️ **Importante:** o app foi feito com o **SDK 52**, então a versão do **Expo Go** precisa ser compatível com o SDK 52.
+Você vai baixar o projeto, abrir ele no Visual Studio Code, rodar localmente e abrir no celular usando o Expo Go.
 
 ---
 
-### 2. 💻 Clonar o projeto no seu computador
+### ✅ O que você precisa instalar no seu computador
 
-Se você já tem o Git instalado:
+1. **[Node.js (LTS)](https://nodejs.org/)** – para rodar o projeto
+2. **[Git](https://git-scm.com/downloads)** – para clonar o projeto
+3. **[Visual Studio Code](https://code.visualstudio.com/)** – para abrir e editar o projeto
+
+> Se estiver no Windows, **reinicie o computador** depois de instalar tudo.
+
+---
+
+## 📦 Passo a passo com comandos
+
+Abra o **terminal (Prompt de Comando, PowerShell, Git Bash ou terminal do VS Code)** e siga:
+
+---
+
+### 1. Clone o projeto
 
 ```bash
 git clone https://github.com/seu-usuario/voluntaryNet.git
 cd voluntaryNet
+```
 
+---
+### 2. Abra o projeto no VS Code
+
+```bash
+code .
+```
+
+---
+### 3. Instale as dependências (só precisa fazer isso uma vez)
+
+```bash
+npm install
+```
+
+---
+### 4. Rode o projeto
+
+```bash
+npx expo start
+```
